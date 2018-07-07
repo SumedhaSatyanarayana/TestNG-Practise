@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="TestPriorityflow">
+		<classes>
+			<class name="New.SecondClass1stPackage3TCs" >
+			<methods>
+				<include name="ThirdTC"></include>
+			</methods>
+		</class>
+			<class name="New.FirstClass1stPackage2TCs" >
+			<methods>
+				<include name="abc"></include>
+			</methods>
+		</class>
+
+		</classes>
+	</test> <!-- TestPriorityflow -->
+</suite> <!-- Suite -->
